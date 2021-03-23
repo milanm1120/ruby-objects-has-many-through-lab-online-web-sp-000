@@ -15,12 +15,4 @@ class Appointment
     @@all
   end
 
-  def patient=(patient)
-    self.patient = patient
-  end
-
-  def doctor=(doctor)
-    self.doctor = doctor
-  end
-
 end
